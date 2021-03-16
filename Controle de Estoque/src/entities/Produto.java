@@ -5,6 +5,9 @@ package entities;
 public class Produto {
 
 	
+// CONTROLE DE ESTOQUE
+	
+	
 	//ATRIBUTOS
 	private String nome;
 	private String descricao;
