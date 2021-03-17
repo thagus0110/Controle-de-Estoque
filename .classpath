@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Controle de Estoque/src"/>
+	<classpathentry kind="lib" path="Controle de Estoque/Connector J 8.0/mysql-connector-java-8.0.23.jar"/>
+	<classpathentry kind="output" path="Controle de Estoque/bin"/>
+</classpath>
