@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import conn.Conexao;
 import entities.Produto;
-
+// CONTROLE DE ESTOQUE
 public class Program {
 
 	public static void main(String[] args) throws SQLException {
