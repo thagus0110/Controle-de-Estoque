@@ -65,18 +65,7 @@ public class Produto {
 	
 	// METODOS
 	
-	public void addProduto(String nome, String descricao, int quantidade, double preco) {
-		this.setNome(nome);
-		this.setDescricao(descricao);
-		this.setQuantidade(quantidade);
-		this.setPreco(preco);
-		this.codigo++;
-	}
-	
-	public void removeProduto() {
 		
-	}
-	
 	public String consultarProduto() {
 		return "";
 	}
