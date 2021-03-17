@@ -61,10 +61,7 @@ public class Produto {
 		return codigo;
 	}
 	
-	public int teste() {
-		return codigo;
-	}
-	
+
 	// METODOS
 	
 		

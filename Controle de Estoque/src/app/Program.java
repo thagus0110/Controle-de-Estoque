@@ -22,7 +22,7 @@ public class Program {
 		int quantidade = 0;
 		double preco = 0;
 
-		// LAï¿½O DE REPETIï¿½ï¿½O P/ TESTES
+		// LAÇO DE REPETIÇÃO P/ TESTES
 		int i = 1;
 		while (i != 0) {
 
@@ -34,7 +34,7 @@ public class Program {
 
 			switch (esc) {
 			case 1:
-				System.out.print("\nDigite as informaï¿½ï¿½es do produto (Nome, Descriï¿½ï¿½o, Quantidade e Preco): \n");
+				System.out.print("\nDigite as informações do produto (Nome, Descriço, Quantidade e Preco): \n");
 
 				nome = sc.next();
 				descricao = sc.next();
@@ -45,7 +45,7 @@ public class Program {
 				break;
 
 			case 2:
-				System.out.println("Informe o cï¿½digo do produto a ser removido: ");
+				System.out.println("Informe o código do produto a ser removido: ");
 				int code = sc.nextInt();
 
 				con.removeProduto(code);
