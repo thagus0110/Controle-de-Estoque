@@ -2,7 +2,7 @@ package conn;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
+//import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -10,7 +10,7 @@ public class Conexao {
 
 	private Connection con = null;
 	private Statement stat = null;	
-	private ResultSet res = null;
+	//private ResultSet res = null;
 
 	public boolean conectar() {
 		String servidor = "jdbc:mysql://localhost:3306/controle_estoque";
@@ -18,7 +18,7 @@ public class Conexao {
 		String senha = "";
 		//String driver = "com.mysql.jdbc.Driver";
 
-		try {
+		try {	
 			this.con = DriverManager.getConnection(servidor, usuario, senha);
 			this.stat = this.con.createStatement();	
 			return true;
