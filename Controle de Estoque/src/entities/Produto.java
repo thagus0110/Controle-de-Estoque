@@ -7,7 +7,6 @@ public class Produto {
 	
 // CONTROLE DE ESTOQUE
 	
-	
 	//ATRIBUTOS
 	private String nome;
 	private String descricao;
@@ -62,6 +61,9 @@ public class Produto {
 		return codigo;
 	}
 	
+	public int teste() {
+		return codigo;
+	}
 	
 	// METODOS
 	
@@ -71,7 +73,7 @@ public class Produto {
 	}
 	
 	public String toString() {
-		return "Produto: " + nome + "\nDescrição: " + descricao + "\nQuantidade: " + quantidade + "\nPreço: " + String.format("%.2f", preco);
+		return "Produto: " + nome + "\nDescriï¿½ï¿½o: " + descricao + "\nQuantidade: " + quantidade + "\nPreï¿½o: " + String.format("%.2f", preco);
 	}
 
 }

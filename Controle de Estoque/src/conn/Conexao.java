@@ -19,6 +19,7 @@ public class Conexao {
 		//String driver = "com.mysql.jdbc.Driver";
 
 		try {
+			//Class.forName(driver);
 			this.con = DriverManager.getConnection(servidor, usuario, senha);
 			this.stat = this.con.createStatement();	
 			return true;
