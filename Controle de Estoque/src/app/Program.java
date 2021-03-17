@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import conn.Conexao;
 import entities.Produto;
-
+// CONTROLE DE ESTOQUE
 public class Program {
 
 	public static void main(String[] args) throws SQLException {
@@ -19,7 +19,7 @@ public class Program {
 
 		// VARIAVEIS
 		String nome = "", descricao = "";
-		int quantidade = 0, codProd = 0;
+		int quantidade = 0;
 		double preco = 0;
 
 		// LA�O DE REPETI��O P/ TESTES
